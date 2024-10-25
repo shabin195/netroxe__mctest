@@ -1,0 +1,52 @@
+.tree-container {
+    max-width: 1000px; /* Increased width */
+    margin: 0 auto;
+    border: 1px solid #ccc; /* Border around the tree */
+    border-radius: 5px; /* Optional: rounded corners */
+    padding: 10px; /* Padding inside the container */
+    background-color: #f9f9f9; /* Optional: light background color */
+  }
+  
+  .tree-header {
+    display: flex;
+    font-weight: bold;
+    border-bottom: 2px solid #ccc; /* Border under the header */
+    margin-bottom: 10px; /* Space below the header */
+  }
+  
+  .header-cell {
+    flex: 1; /* Evenly distribute space between header cells */
+    padding: 10px;
+  }
+  
+  .tree-node {
+    border: 1px solid #ddd; /* Border around each node */
+    margin: 5px 0; /* Space between nodes */
+    padding: 10px; /* Padding inside each node */
+    border-radius: 5px; /* Optional: rounded corners for nodes */
+    background-color: #fff; /* Optional: white background for nodes */
+    position: relative; /* Needed for positioning the buttons */
+  }
+  
+  .node-label {
+    cursor: pointer; /* Pointer cursor for clickable labels */
+  }
+  
+  .edit-form {
+    margin-top: 10px; /* Space above the edit form */
+  }
+  
+  .action-button {
+    margin-left: 5px; /* Space between buttons */
+    padding: 5px 10px; /* Padding for buttons */
+    border: none; /* Remove default button border */
+    border-radius: 3px; /* Rounded corners for buttons */
+    background-color: #007bff; /* Bootstrap primary color */
+    color: white; /* White text for buttons */
+    cursor: pointer; /* Pointer cursor for buttons */
+  }
+  
+  .action-button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+  }
+  
